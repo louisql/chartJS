@@ -22,3 +22,23 @@ export const lineChartData = {
   ],
   
 };
+
+export const barChartData = {
+  "labels": [
+    "Rent",
+    "Groceries",
+    "Utilities",
+    "Entertainment",
+    "Transportation"
+  ],
+  "datasets": [
+    {
+      "label": "Expenses",
+      "data": [1200, 300, 150, 180, 100],
+      "backgroundColor": ["rgba(255, 99, 132, 0.2)"],
+      "borderColor": ["rgba(54, 162, 235, 1)"],
+      "borderWidth": 1
+    }
+  ]
+}
+

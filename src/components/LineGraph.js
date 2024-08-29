@@ -1,6 +1,6 @@
 import {Line} from 'react-chartjs-2';
 import  { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend} from 'chart.js';
-import { lineChartData } from '../api/dataLineGraph';
+import { lineChartData } from '../api/data';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend); // Register all the components to inform chartjs we'll render those
 
